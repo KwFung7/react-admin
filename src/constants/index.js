@@ -29,7 +29,7 @@ export const BREAKPOINT_MOBILE = 768;
 
 // API
 export const API_HOST_URL = 'https://api.kwfxng.com';
-export const X_AUTH = 'x-auth';
+export const X_AUTH = 'Authorization';
 export const ADMIN_ROLE = 'admin';
 export const GUEST_ROLE = 'guest';
 
