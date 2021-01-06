@@ -31,7 +31,7 @@ let store = createStore(
   applyMiddleware(...middlewares)
 );
 
-// set axios base url and set response header Authorization
+// set axios base url and set response header x-auth
 axios.defaults.baseURL = `${API_HOST_URL}${API_ROUTE}`;
 axios.interceptors.response.use((res) => {
   const { headers = {} } = res;
